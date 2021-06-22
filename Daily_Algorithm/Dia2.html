@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movimiento aspiradora</title>
+</head>
+<body>
+    <script>
+        //R:Derecha L:Izquierda U:arriba D:Abajo
+        function movAspiradora(arr){
+            let ejex=0,ejey=0;
+            for(let i=0;i<arr.length;i++){
+                if(arr[i] =="R"){
+                    ejex+=1;
+                }
+                if(arr[i] =="L"){
+                    ejex-=1;
+                }
+                if(arr[i] =="U"){
+                    ejex+=1;
+                }
+                if(arr[i] =="D"){
+                    ejex-=1;
+                }
+            }
+            if(ejex==0 && ejey==0){
+                return true;
+            }else{
+                return false;
+            }
+        }
+        let ejemplo = "RUULLDRDLRD";
+        console.log(movAspiradora(ejemplo));
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 970px;
+}
+
+#header{
+    width: 970px;
+    background-color: #245076;
+    height: 120px;
+}
+
+#imgPython{
+    display: inline-block;
+    width: 760px;
+}
+
+#imgPython img{
+    width: 400px;
+}
+
+#search{
+    display: inline-block;
+    text-align: center;
+}
+
+#search p{
+    margin-left: 30px;
+}
+
+#mainContent{
+    background-color: brown;
+}
+
+#menu{
+    background-color: #245076;
+    text-align: center;
+}
+
+#menu ul{
+    background-color: #417bad;
+    height: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+    box-shadow: 7px 5px 15px black;
+}
+
+#menu li{
+    display: inline;
+    margin-left: 30px;
+}
+
+#main{
+    background-color:cornflowerblue;
+}
+
+#getStarted{
+    background-color:darkgoldenrod;
+}
+
+#apps{
+    background-color:darkseagreen;
+}
+#footer{
+    background-color:deeppink;
+}

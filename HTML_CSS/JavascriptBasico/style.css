@@ -1,0 +1,73 @@
+
+/*CSS reset setting*/
+* {
+	padding: 0;
+	margin: 0;
+	}
+    #contenedor{
+        background-color: #1b345d;
+        padding: 10px;
+        width: 970px;
+    }
+    #cabecera{
+        background-color: #cf3036;
+        width: 950px;
+        height: 100px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    #menu{
+        float: left;
+        background-color: #297d8c;
+        height: 200px;
+        width: 200px;
+        margin: 10px;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    #contenido{
+        display: inline-block;
+        background-color: #0e1822;
+        width: 620px;
+        height: 680px;
+        margin: 10px;
+        border-radius: 10px;
+        color: #a5bad4;
+        padding: 10px;
+    }
+    #contenido li{
+        color: #a5bad4;
+    }
+    #pie{
+        background-color: #5d6673;
+        width: 950px;
+        height: 50px;
+        margin: 10px;
+        border-radius: 10px;
+        color: #a5bad4;
+    }
+    #link{
+        color: #4ebdcd;
+    }
+    #submenu{
+        padding: 50px;
+    }
+    ul li{
+        color: #4ebdcd;
+
+    }
+    ul {
+        margin-left: 10px;
+    }
+
+    h1{
+        color: #c4a9bb;
+        margin-top: 30px;
+        margin-left: 30px;
+        display: inline-block;
+    }
+    p {
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: 15px;
+    }

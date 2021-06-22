@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo</title>
+</head>
+<body>
+    <p>"level", return true
+        "algorithm", return false
+        "A man, a plan, a canal: Panama.", return true</p>
+    <script>
+        console.log("Hola mundo");
+        function palindromo(palabra){
+            //console.log(palabra);
+            var last_position = palabra.length -1,palindromo = true;
+            for (var i=0; i<palabra.length/2; i++){
+                if(palabra[i] != palabra[last_position-i]){
+                    palindromo = false;
+                }
+            }
+            return palindromo;
+        }
+        console.log(palindromo("Eve"));
+
+    </script>
+</body>
+</html>

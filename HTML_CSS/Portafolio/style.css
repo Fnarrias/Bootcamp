@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    background-color: blue;
+    width: 970px;
+    height: auto;
+}
+#header{
+    background-color: red;
+    height: 100px;
+    background-color: white;
+}
+
+#header h1, #header h3{
+    vertical-align: -40px;
+    display: inline-block;
+    margin: 10px;
+}
+#header h3{
+    width: 740px;
+    text-align: right;
+    font-family: sans-serif;
+}
+#header h1{
+    font-family:cursive;
+}
+
+#photo_frame{
+    display: inline-block;
+    background-color: #9c9297;
+    margin: 20px;
+    width: 400px;
+    height: 265px;
+}
+
+#content{
+    /* background-color: radial-gradient(#6f5964, #251519);  */
+    background-image: radial-gradient(#6f5964, #251519);
+    height: 770px;
+}
+
+/* #presentation{
+    background-color: green;
+}  */
+
+#presentation img{
+    display: inline-block;
+    width: 380px;
+    margin: 8px;
+}
+
+#presentation_text{
+    background-image: linear-gradient(to right,#fefefe,#beaebb);
+    display: inline-block;
+    width: 400px;
+    height: 263px;
+    margin: 20px;
+    vertical-align: top;
+}
+#presentation_text h2{
+    background-image: linear-gradient(#acacb1,#888693,#acacb1);
+    color: ivory;
+}
+
+#details{
+    height: 480px;
+}
+
+#details h2{
+    background-image: linear-gradient(#acacb1,#888693,#acacb1) ;
+    color: ivory;
+}
+
+#detail1, #detail2, #detail3{
+    background-image: linear-gradient(to right,#fefefe,#beaebb);
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+    height: 430px;
+}
+
+#detail1 ul li, #detail2 ul li, #detail3 ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#detail1 a{
+    margin-left: 110px;
+}
+#detail2 a{
+    margin-left: 100px;
+}
+#detail3 a{
+    margin-left: 110px;
+}
+
+#details a{
+    color: white;
+    background-color: #407b60;
+    text-decoration: none;
+    border-style:solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 7px 5px 15px black;
+}
+
+.pagesimg{
+    width: 300px;
+}
+
+.technologies{
+    width: 40px;
+}
+
+
+#footer{
+    background-color: white;
+    height: 100px;
+    text-align: center;
+}
+#footer img{
+    width: 15px;
+}
+
+#footer a{
+    color: black;
+    font-style: italic;
+}
+
+#footer ul li{
+    display: inline-block;
+}
